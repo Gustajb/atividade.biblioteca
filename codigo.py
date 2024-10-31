@@ -48,7 +48,7 @@ if __name__ == "__main__":
     biblioteca = Biblioteca()
     biblioteca.adicionar_livro("O Senhor dos Anéis", "J.R.R. Tolkien")
     biblioteca.adicionar_livro("1984", "George Orwell")
-        biblioteca.listar_livros()
+    biblioteca.listar_livros()
     biblioteca.buscar_livro("1984")
     biblioteca.emprestar_livro("O Senhor dos Anéis")
     biblioteca.listar_livros()
