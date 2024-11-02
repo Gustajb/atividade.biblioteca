@@ -43,7 +43,6 @@ class Biblioteca:
                 return
         print(f'Livro "{titulo}" não disponível para empréstimo.')
 
-# Exemplo de uso
 if __name__ == "__main__":
     biblioteca = Biblioteca()
     biblioteca.adicionar_livro("O Senhor dos Anéis", "J.R.R. Tolkien")
